@@ -13,6 +13,9 @@ all: $(OUTPUT)
 %.1bpp: %.png
 	rgbgfx -d 1 -o $@ $<
 
+$(BUILD_DIR):
+	mkdir -p $(BUILD_DIR)
+
 $(OBJECT): game.asm $(ASM_SOURCES)
 	mkdir -p $(BUILD_DIR)
 	rgbasm -o $@ game.asm
