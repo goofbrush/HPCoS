@@ -1,0 +1,21 @@
+
+--------- text writing ---------
+258f > 26a1 > 184e > 18ba > 15dad > 1007b > 5fed > 6006 > 60bf > 6123
+
+
+614e -> label 619B -> call label 24B 
+
+label 200 - writes to graphics area VRAM ~0xDE00
+
+4001 (memcpys text into workram)
+
+
+
+DB00 - char map spacing?
+
+rom1d:6d3c text?
+
+
+
+--- banks ---
+0x10 - music related? (lb_3ad0)
